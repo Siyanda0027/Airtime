@@ -1,0 +1,16 @@
+L = [1,2,3,4]
+
+c = 0
+
+for i in L:
+    for j in L:
+        for k in L:
+            for l in L:
+                if i!=j and i!=k and i!=l and j!=k and j!=l and k!=l:
+                    print([i,j,k,l])
+                    c = c + 1
+print("enter digit 1: ")
+print("enter digit 2: ")
+print("enter digit 3: ")
+print("enter digit 4: ")
+
